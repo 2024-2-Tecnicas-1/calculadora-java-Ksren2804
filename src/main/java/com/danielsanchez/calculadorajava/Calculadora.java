@@ -36,6 +36,7 @@ public class Calculadora {
                 // Operación Modulo:
                 respuesta = numero1 % numero2;
                 break;
+
             default:
                 throw new IllegalArgumentException("Operación inválida.");
         }
