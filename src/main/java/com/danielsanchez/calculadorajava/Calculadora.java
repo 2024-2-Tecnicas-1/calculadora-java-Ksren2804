@@ -28,7 +28,14 @@ public class Calculadora {
                 break;
             
             // TODO: DEBES CREAR AQUÍ LOS CASES PARA LA OPERACIÓN DE LA POTENCIA Y EL MÓDULO.
-                
+              case '^' :
+                // Operación potencia:
+                respuesta = numero1^numero2;
+                break;    
+                case '%' :
+                // Operación Modulo:
+                respuesta = numero1 % numero2;
+                break;
             default:
                 throw new IllegalArgumentException("Operación inválida.");
         }
